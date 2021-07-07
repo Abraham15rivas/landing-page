@@ -1,0 +1,64 @@
+/* All */
+* {
+    font-style: normal;
+    /* src: url('../font/crete-round/CreteRound-Italic.otf') !important; */
+}
+
+/* Body */
+body {
+    background: url('../image/bg_01_home.png') no-repeat;
+    background-size:cover;
+    background-position: center 6em;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-attachment: fixed;
+    overflow: scroll;
+}
+  
+/*
+* Custom translucent site header
+*/
+.site-header {
+    background-color: #c91e0f;
+    background: repeating-linear-gradient(
+        135deg,
+        #ffffff 0, #ffffff 38%,
+        #000000 0, #000000 40.7%,
+        #c91e0f 0, #c91e0f 43.7%, 
+        #96160B 0, #96160B
+    );
+    height: 7em;
+}
+.site-header a {
+    color: #ffffff !important;
+    transition: color .15s ease-in-out;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.site-header a:hover {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+.logo {
+    background-size: contain;
+}
+.link-img {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.content-main {
+    margin-top: 25vh;
+}
+.btn-custom {
+    background-color: #c91e0f;
+    color: white;
+    border-radius: 0.8em;
+}
+.navbar-nav {
+    background-color: #96160B;
+}
+.bg-img {
+    background-image: url('../image/sponsors_bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
